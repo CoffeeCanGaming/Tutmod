@@ -28,6 +28,7 @@ public class Iteminit {
 	
 	public static final Item example_item = null;
 	public static final Item example_item2 = null;
+	public static final Item test_ingot = null;
 	
 	public static final Item special_item = null;
 	public static final Item fuel_item = null;
@@ -50,6 +51,7 @@ public class Iteminit {
 	{
 		event.getRegistry().registerAll(new Item(new Item.Properties().group(TutItemGroup.instance)).setRegistryName("example_item"),
 									   (new Item(new Item.Properties().group(TutItemGroup.instance).food(new Food.Builder().hunger(6).saturation(1.5F).effect(new EffectInstance(Effects.ABSORPTION, 600, 5) ,1).build())).setRegistryName("example_item2")),
+									   (new Item(new Item.Properties().group(TutItemGroup.instance)).setRegistryName("test_ingot")),
 									   (new SpecialItem(new Item.Properties().group(TutItemGroup.instance))),
 									   (new FuelItem(new Item.Properties().group(TutItemGroup.instance))));
 	

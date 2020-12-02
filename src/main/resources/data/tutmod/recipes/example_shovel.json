@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    " i ",
+    " i "
+  ],
+  "key": {
+    "I": {
+      "item": "tutmod:test_ingot"
+    },
+    "i": {
+      "tag": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tutmod:example_shovel"
+  }
+}
