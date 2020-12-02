@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "tutmod:block/example_ore" }
+    }
+}

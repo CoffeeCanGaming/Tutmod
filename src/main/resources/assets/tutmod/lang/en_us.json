@@ -1,0 +1,22 @@
+{
+	"item.tutmod.example_item": "Tut Item",
+	"item.tutmod.example_item2": "Test Food",
+	
+	"item.tutmod.example_sword": "Test Sword",
+	"item.tutmod.example_pickaxe": "Test Pickaxe",
+	"item.tutmod.example_axe": "Test Axe",
+	"item.tutmod.example_shovel": "Test Shovel",
+	"item.tutmod.example_hoe": "Test Hoe",
+	
+	"item.tutmod.example_helmet": "Test Helm",
+	"item.tutmod.example_chestplate": "Test Chestplate",
+	"item.tutmod.example_leggings": "Test Leggings",
+	"item.tutmod.example_boots": "Test Boots",
+	
+	"item.tutmod.special_item": "Adavnced Test Item",
+	
+	"block.tutmod.example_block": "Test Block",
+	
+	"itemGroup.TutGroup": "Test Tab"
+	
+}

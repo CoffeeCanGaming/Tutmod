@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tutmod:example_ore",
+          
+          "condintions" : "tutmod:Item",
+          "apply_bonus" :{
+          	"enchantment" : "fortune",
+          	"formula": "binomial_with_bonus_count",
+          	"parameters" :{
+          	 "extra" : "2",
+          	 "probability" : "0.20"
+          	}
+          }
+          
+        }
+      ]
+    }
+  ]
+}
